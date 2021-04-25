@@ -4,7 +4,7 @@ import App from './AppToPrintJS.vue'
 // import App from './AppToNB.vue'
 
 
-// 打赢的框架
+// 打印的框架
 import VueHtmlToPaper from 'vue-html-to-paper';
 const options = {
   name: '_blank',
