@@ -1,6 +1,7 @@
 import Vue from 'vue'
 // import App from './AppToPaper.vue'
 import App from './AppToPrintJS.vue'
+// import App from './AppToNB.vue'
 
 
 // 打赢的框架
