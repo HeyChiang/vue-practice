@@ -4,7 +4,7 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   
-    <button @click="windowPrint">打印</button>
+    <button @click="windowPrint"> 打印 </button>
 
   </div>
 </template>
@@ -20,7 +20,9 @@ export default {
   },
   methods:{
     windowPrint(){
-      printJS({printable:'app',documentTitle:'标题', type:'html',style:'#app {font-family: Avenir, Helvetica, Arial, sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-align: center;color: #2c3e50;margin-top: 60px;}'})
+      // printJS({printable:'app',documentTitle:'标题', type:'html',style:'#app {font-family: Avenir, Helvetica, Arial, sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-align: center;color: #2c3e50;margin-top: 60px;}'})
+      printJS({printable:'app',documentTitle:'标题', type:'html',targetStyles:'*'})
+      
     }
   }
 };
