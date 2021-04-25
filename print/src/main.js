@@ -1,7 +1,9 @@
 import Vue from 'vue'
 // import App from './AppToPaper.vue'
-import App from './App.vue'
+import App from './AppToPrintJS.vue'
 
+
+// 打赢的框架
 import VueHtmlToPaper from 'vue-html-to-paper';
 const options = {
   name: '_blank',

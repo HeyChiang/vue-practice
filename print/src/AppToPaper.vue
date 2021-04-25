@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+<!-- 使用htmlToPaper框架打印，配置在mian.js中 -->
+
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
 

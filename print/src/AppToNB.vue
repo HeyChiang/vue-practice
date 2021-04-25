@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- 使用vue-print-nb打印 -->
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     

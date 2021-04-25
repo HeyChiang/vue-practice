@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "print-js": "^1.6.0",
     "sass": "^1.32.11",
     "vue": "^2.6.11",
     "vue-html-to-paper": "^1.3.1",
